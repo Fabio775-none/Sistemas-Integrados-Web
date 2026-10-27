@@ -1,4 +1,4 @@
-# Sistemas Integrados WEB | Fabio FJA
+# Sistemas Integrados WEB
 
 **Aplicação web com cinco sistemas de gerenciamento integrados, desenvolvida em HTML5, CSS3 e JavaScript.**
 
