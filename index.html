@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema integrado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     
+    <form class="formulario1">
+    <div class="tituloprincipal">SISTEMA INTEGRADO</div>
+        <div class="formulario2">
+      
+           <div><button type="button" class="btn1" onclick ="abrirTela('Agenda')">Agenda de Contatos</button></div>
+           <div><button type="button" class="btn2" onclick = "abrirTela('Biblioteca')">Biblioteca</button></div>
+           <div><button type="button" class="btn3" onclick="abrirTela('Controle_Financeiro')">Controle Financeiro</button></div>
+           <div><button type="button" class="btn4" onclick="abrirTela('Catalogo')">Catálogo de Filmes</button></div>
+           <div><button type="button" class="btn5" onclick="abrirTela('Cadastro_de_alunos')">Cadrasto de Alunos</button></div>
+           <!--<img src="anime.png" class="personagem"> -->
+      </div>
+
+    </form>
+
+        <form class="telaPrincipal">
+            
+           <div class="ferramentas">
+            <div>
+                <h1 class="titulo">Agenda de Contatos</h1>
+            </div>
+          
+            <h2 class="subtitulo">Adicionar Contatos:</h2>  
+
+            <div class="caixa1">
+            <label class="label1">Nome:</label>
+            <input type="text" class="input1">
+            </div>
+
+            <div class="caixa2">
+            <label class="label2">Telefone:</label>
+            <input type="number" class="input2">
+            </div>
+
+            <div class="caixa3">
+            <label class="label3">Email:</label>
+            <input type="email" class="input3">
+            <div><button type="button" class="btn_salvar" onclick="adicionarItens()">Salvar</button></div>
+            </div>
+           
+            <h3 class="pesquisar">Pesquisar:</h3>
+            <div>
+            <label class="label4">Nome:</label>
+            <input type="text" class="input4" onkeyup="buscarItem()">
+            <button type="button" class="btn_buscar">Buscar</button>
+            </div>
+            
+           
+            <h4>Cadastros:</h4>
+
+     <div class="caixatabela">
+
+              <table class="tabela">
+
+          <tr>
+                <th >Nome:</th>
+                <th >Telefone:</th>
+                <th >Email:</th>
+                <th>Ações:</th>
+          </tr>
+           
+          <td></td>
+          <td></td>
+          <td></td>
+
+           
+            <th class="acoes">
+                   <button type="button" class="btn_tabela1">Editar</button>
+                   <button type="button" class="btn_tabela2">Excluir</button>
+            </th>
+                 
+                </table>
+
+        </div>
+                 
+                  <footer class="rodape">Desenvolvido por: Fabio_software2026</footer>
+
+                 
+            </div>
+
+           <button type="button" class="btn_voltar"onclick="abrirTela('Voltar')">Voltar ao menu principal</button>
+        </form>
+
+
+   <script src="script.js"></script>
+</body>
+
+</html>
+
+

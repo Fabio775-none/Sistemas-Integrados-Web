@@ -1,0 +1,41 @@
+Projeto 1 —Agenda de Contatos
+Funcionalidades:
+
+adicionar contato   (input, button)
+excluir contato  (button)
+pesquisar contato (button)
+salvar contatos (button)
+
+Projeto 2 —Biblioteca
+Funcionalidades:
+
+cadastrar livros  (input,button)
+excluir livros  (button)
+marcar emprestado  (checkbox)
+pesquisar livros (button)
+
+Projeto 3 —Controle Financeiro
+Funcionalidades:
+
+registrar receitas  (input,button)
+registrar despesas  (input,button)
+calcular saldo  (input,button)
+salvar movimentações (button)
+
+Projeto 4 —Catálogo de Filmes
+Funcionalidades:
+
+adicionar filmes  (input,button)
+marcar assistido  (checkbox)
+remover filmes  (button)
+pesquisar filmes (input, button)
+
+Projeto 5 —Cadastro de Alunos
+Funcionalidades:
+
+cadastrar aluno  (input, button)
+registrar nota  (input, button)
+pesquisar aluno  (input,button)
+excluir aluno (input,button)
+
+Uma unica tabela para todos os sistemas
