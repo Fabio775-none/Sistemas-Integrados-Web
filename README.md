@@ -1,4 +1,4 @@
-# Sistemas Integrados WEB
+# Sistemas Integrados Web
 
 **Aplicação web com cinco sistemas de gerenciamento integrados, desenvolvida em HTML5, CSS3 e JavaScript.**
 
